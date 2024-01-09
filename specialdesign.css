@@ -1,0 +1,468 @@
+head{
+    background-image: linear-gradient(#03030F, #1d2841);
+}
+body{
+    background-image: linear-gradient(#03030F, #1d2841);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 995px;
+}
+#profilepicturewithlink img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 100px;
+    padding: 1.5px;
+    border: 3px solid #071b26;
+    border-radius: 50%;
+}
+#profilepicturewithlink h3 {
+    font-size: 20px;
+    word-spacing: 2px;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: darkturquoise;
+    text-shadow: 5px 5px 7px #17042e;
+    background-image: linear-gradient(to bottom right, #05122be7, #101011);
+    padding: 2%;
+    border-radius: 1%;
+}
+#navigationbar ul{
+   list-style: none;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-image: linear-gradient(to bottom right, #05122be7, #101011);
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-left: 140px;
+   padding-right: 140px; 
+   border-radius: 2%;
+}
+#navigationbar li{
+    display: inline-block;
+}
+#navigationbar a{
+    text-decoration: none;
+    color: darkcyan;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+#navigationbar a:hover{
+    background-image: radial-gradient(circle, #27475a6e 35%,#05122b1e 65%);
+}
+#content { 
+    float: inline-start;
+    color: #333;
+    border: 1px solid #ccc;
+    background:#CCC8B3;
+    margin: 0px 5px 5px 0px;
+    padding: 10px;
+    height: 350px;
+    width: 456px;
+    display: inline;
+}
+#dropdown ul{
+    padding: 0px;
+    width: 130px;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    border: 5px solid #021016;
+    text-align: center;
+}
+#active {
+    background-image: radial-gradient(circle, #27475a6e 5%,#05122b1e 45%,#05122b00 50%);
+}
+.drop:hover + #dropdown ul{
+    display: flex;
+}
+#dropdown ul:hover{
+    display: flex;
+}
+#homepage-body{
+    background-image: linear-gradient(#03030F, #1e2638);
+    background-size: cover;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 175px;
+    margin-left: 175px;
+    border-radius: 1%;
+}
+#homepage-body h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 55%;
+    color: antiquewhite;
+    padding: 0.3%;
+    background-image: linear-gradient(30deg,#300d2a, #182f38);
+    border: 2px solid rgb(22, 22, 22);
+    box-shadow: 0px 1px 6px 0px rgb(9, 4, 17);
+    background-size: cover;
+    box-shadow: inset ;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2%;
+}
+#body-text{
+    margin-top: 10%;
+    margin-bottom: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: #03030F;
+
+}
+#homepage-body h2{
+    text-align: left;
+    width: 35%;
+    color: rgb(33, 145, 126);
+    font-size: xx-large;
+
+
+}
+#homepage-body p{
+    display: contents;
+    text-align: left;
+    font-size: larger;
+    width: 35%;
+    color: rgb(189, 164, 218);
+    margin-left: 50%;
+}
+#MyPerfectPhoto {
+    display: block;
+    width: 30%;
+    height: 30%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 5px 5px 7px #021016;
+    border-radius: 2.5%;
+
+}
+#page-body-hades{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    background-image: linear-gradient(black, #4A0001);
+    background-size: cover;
+    margin-right: 175px;
+    margin-left: 175px;
+    border-radius: 1%;
+}
+#page-body-minecraft{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    background-image: linear-gradient(rgba(11, 49, 11, 0.973)35%,rgb(39, 24, 24)65%);
+    background-size: cover;
+    margin-right: 175px;
+    margin-left: 175px;
+    border-radius: 1%;
+}
+#page-body-witcher{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    background-image: linear-gradient(rgb(146, 146, 146),rgb(12, 11, 11)65%);
+    background-size: cover;
+    margin-right: 175px;
+    margin-left: 175px;
+    border-radius: 1%;
+    height: auto;
+}
+#page-body-undertale{
+    font-family:sans-serif; /* Oyundaki npc lerden Sans'a ithafen yazı tipi Sans-serif*/
+    display: block;
+    background-image: radial-gradient(circle,#423e3e 7.5%,#111111);
+    background-size: cover;
+    margin-right: 175px;
+    margin-left: 175px;
+    border-radius: 1%;
+}
+.page-body-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    max-width: 50%;
+    box-shadow: 5px 5px 7px #021016;
+    border-radius: 2.5%;
+}
+.page-body-heading1{
+    text-align: center;
+    font-size: xx-large;
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-shadow: 5px 5px 7px #021016;
+}
+.page-body-p{
+    text-align: left;
+    font-size: large;
+    color: antiquewhite;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.page-body-list {
+    display: inline-block;
+    text-align: left;
+    padding-left: 220px
+}
+.list-heading{
+    text-shadow: 5px 5px 7px #021016;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+.list{
+    font-size: large;
+    color: antiquewhite;
+}
+.song{
+    display: block;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.bottom-bar{
+    position: sticky;
+    bottom: 0;
+    list-style: none;
+    background-image: linear-gradient(to bottom right, #05122be7, #101011);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    object-position: center;
+    height: 75px;
+    border-radius: 1%;
+}
+#button {
+    text-align: center;
+    color: antiquewhite;
+    margin: auto;
+    font-size: 17px;
+    padding: 10px 25px;
+    border-radius: 0.7rem;
+    background-image: linear-gradient(#300d2a, #182f38);
+    border: 2px solid rgb(50, 50, 50);
+    border-bottom: 5px solid rgb(39, 24, 24);
+    box-shadow: 0px 1px 6px 0px rgb(9, 4, 17);
+    transform: translate(0, -3px);
+    transition: 0.2s;
+    transition-timing-function: linear;
+}
+#button:active {
+    transform: translate(0, 0);
+    border-bottom: 2px solid rgb(50, 50, 50);
+  }
+.turnhome {
+    border: none;
+    color: antiquewhite;
+    background-image: linear-gradient(30deg,#300d2a, #182f38);
+    border: 2px solid rgb(50, 50, 50);
+    border-bottom: 5px solid rgb(39, 24, 24);
+    box-shadow: 0px 1px 6px 0px rgb(9, 4, 17);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-right: 80%;
+}   
+.turnhome:active{
+    transform: translate(0, 0);
+    border-bottom: 2px solid rgb(50, 50, 50);
+} 
+.form {
+    background-image: linear-gradient(to bottom right, #380e38e7, #111138);
+    padding: 5%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-top: 5%;
+    margin-bottom: 13%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .signup {
+    color: rgb(37, 113, 148);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 10%;
+  }
+  
+  .form-info {
+    width: 100%;
+    margin-bottom: 1.25em;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 0.8em;
+    font-family: 'Inter', sans-serif;
+    outline: none;
+    background-color: antiquewhite;
+    text-align: center;
+  }
+  .form-info:focus {
+    border: 3px solid rgb(25, 140, 160);
+    outline: none;
+  }
+  .form-radio{
+    color: #1b829c;
+  }
+  .form-accept {
+    display: flex;
+    margin-bottom: 1.25em;
+    align-items: center;
+  }
+  .radiobutton, input[type="radio"]{
+    accent-color: rgb(33, 190, 54);
+  }
+  
+  .form-accept > input {
+    margin-right: 0.625em;
+  }
+  
+  .form-accept > label {
+    color: #1b829c;
+  }
+  
+  .checkbox, input[type="checkbox"] {
+    accent-color: rgb(33, 190, 54);
+  }
+  
+  .form-submit {
+    width: 50%;
+    padding: 0.625em;
+    border-radius: 5px;
+    color: white;
+    background-color: #639;
+    border: 1px dashed #639;
+    cursor: pointer;
+  }
+  
+  .form-submit:hover {
+    color: rgb(94, 25, 100);
+    background-color: #1b829c;
+    border: 1px solid rgb(31, 22, 41);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+ #contact-head{
+    text-align: center;
+    color: #2bdff7;
+    padding: 2% 2% 2% 5%;
+    text-transform: uppercase;
+    font-family: Comic Sans Ms;
+    text-shadow:5px 5px 7px #125683;
+ }
+  .contacts-body-1 {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contacts-body-2 {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .card {
+    --background: linear-gradient(to left, #dd22c4 0%, #325eee 100%);
+    width: 190px;
+    height: 254px;
+    padding: 5px;
+    border-radius: 1rem;
+    overflow: visible;
+    background: #ca9414;
+    background: var(--background);
+    position: relative;
+    z-index: 1;
+    margin: 5%;
+   }
+   .card::after {
+    position: absolute;
+    content: "";
+    top: 30px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    transform: scale(0.8);
+    filter: blur(25px);
+    background: #f7ba2b;
+    background: var(--background);
+   }
+   .card-info {
+    --color: #181818;
+    background: var(--color);
+    color: var(--color);
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    border-radius: .7rem;
+   }
+   .logo{
+    width: 50px;
+    display: none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 35%;
+   }
+   .card .title {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    letter-spacing: .1em;
+   }
+   .card:hover::after {
+    opacity: 0;
+   }
+   .card:hover .card-info {
+    color: #2bdff7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: color 1s;
+   }
+   .card:hover .logo{
+    display: block;
+   }
+   #songs-head{
+    text-align: center;
+    color: crimson;
+   }
+   #songs-body{
+    text-align: center;
+    color: antiquewhite;
+   }
+   
+   .favoritesongs{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 75%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+   }
